@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הזמנות</title>
+    <link rel="icon" type="image/x-icon" href="/images/LOGO.jpg">
+</head>
+
+<body dir="rtl"
+    style="background-image: url(images/nekudut.jpg); background-size: cover;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">
+    <a href="index.html"><img src="images/backgroundup.jpg" width="100%" height="150" /></a>
+    <table style="width: 100%; ">
+        <tr>
+            <th style="width: 225px; font-size:x-large;"><a style="color: rgb(97, 52, 32);"
+                    href="Branches.html">סניפים</a></th>
+            <th style="width: 225px; font-size:x-large;"><a style="color: rgb(97, 52, 32);" href="Parts.html">מוצרים</a>
+            </th>
+            <th style="width: 225px; font-size:x-large;"><a style="color: rgb(97, 52, 32);"
+                    href="Orders.html">הזמנות</a> </th>
+        </tr>
+    </table><br /><br />
+    <form name="f1" action="mailto:heler7000@gmail.com" >
+        <div style="display: flex; padding-right: 350px;">
+            <div style="padding: 50px;">
+                <legend> <b> פרטים אישיים:</b></legend><br />
+                שם פרטי:<br />
+                <input type="text" required="required" /><br /><br />
+                שם משפחה:<br />
+                <input type="text" required="required" /><br /><br />
+                טלפון:<br />
+                <input type="tel" required="required" /> <br /> <br />
+                כתובת:<br />
+                <input type="text" required="required" /><br /> <br />
+                יישוב:<br />
+                <input type="text" required="required" /><br /> <br />
+                מייל:<br />
+                <input type="email" /><br /> <br />
+            </div>
+            <div style="padding: 50px;">
+            <b> פירוט ההזמנה:</b><br/><br/>
+            שם פריט:<br/>
+            <input type="text" required="required" /><br/><br />
+            כמות:<br />
+            <input type="number" required="required" /><br/><br />
+            <b>אופן תשלום:</b><br/>
+            <input type="radio" name="s" />מזומן <br/>
+            <input type="radio" name="s" />אשראי <br/> <br/>
+            <b> פרטי חשבון:</b><br />
+            מספר כרטיס: <br />
+            <input type="password" required="required" /><br/><br/>
+            סוג כרטיס:
+            <select>
+                <option>ויזה</option>
+                <option>ישראכרט</option>
+                <option>לאומי קארד</option>
+                <option>אמריקן אקספרס</option>
+            </select><br /><br/>
+            תוקף:<br/>
+            <input type="text" required="required" /><br /><br/>
+            בנק:<br/>
+            <input type="text" required="required" /><br /><br/>
+            סניף:<br/>
+            <input type="text" required="required" /><br /><br /><br />
+       
+            </div>
+    </div>
+    <div style="padding-right: 500px;">
+            <input type="reset" value="נקה טופס" style="font-size: large;"/>
+            <input type="submit" value=" שלח הזמנה" style="font-size: large;"/>
+    </div>
+    </form>
+</body>
+
+</html>
